@@ -12,39 +12,58 @@
     left:0;
     margin: 0;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    position: fixed;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='500' preserveAspectRatio='none' viewBox='0 0 1920 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1039%26quot%3b)' fill='none'%3e%3crect width='1920' height='500' x='0' y='0' fill='rgba(178%2c 139%2c 132%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c483.547C94.408%2c478.567%2c190.565%2c471.371%2c270.842%2c421.439C351.76%2c371.109%2c400.204%2c287%2c448.279%2c204.722C501.249%2c114.066%2c580.16%2c22.659%2c564.512%2c-81.165C548.871%2c-184.939%2c433.573%2c-237.03%2c369.205%2c-319.918C300.051%2c-408.969%2c280.695%2c-555.786%2c172.178%2c-586.385C63.468%2c-617.038%2c-34.161%2c-511.681%2c-135.743%2c-462.299C-219.72%2c-421.475%2c-303.189%2c-385.536%2c-371.635%2c-322.023C-446.67%2c-252.396%2c-525.512%2c-178.575%2c-548.9%2c-78.92C-573.106%2c24.221%2c-547.421%2c133.571%2c-500.894%2c228.751C-455.099%2c322.435%2c-382.795%2c403.738%2c-289.851%2c451.017C-201.404%2c496.009%2c-99.095%2c488.775%2c0%2c483.547' fill='%237c554e'%3e%3c/path%3e%3cpath d='M1920 1323.5819999999999C2071.742 1324.5430000000001 2152.432 1142.341 2280.584 1061.079 2409.837 979.119 2603.654 980.196 2675.0299999999997 844.8109999999999 2746.299 709.63 2681.7290000000003 541.762 2630.226 397.885 2585.572 273.14099999999996 2490.126 181.284 2402.071 82.28300000000002 2315.228-15.355000000000018 2243.453-137.85699999999997 2118.814-177.09900000000005 1993.464-216.56500000000005 1863.87-156.74199999999996 1735.747-127.50699999999995 1598.757-96.24800000000005 1455.4-84.24900000000002 1342.9099999999999-0.05099999999998772 1214.943 95.731 1061.982 216.82 1062.1689999999999 376.663 1062.359 539.361 1247.3890000000001 632.087 1343.8029999999999 763.14 1417.561 863.3969999999999 1473.118 969.748 1562.34 1056.53 1671.201 1162.415 1768.1399999999999 1322.62 1920 1323.5819999999999' fill='%23dccac7'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1039'%3e%3crect width='1920' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 
-#headPanel p {
+#titlu:hover {
+    transform: scale(1.1);
+}
+
+#titlu {
+    cursor:default;
+    transition: all .2s ease-in-out;
     color: #6f453d;
     font-size: 70px;
+    height: 100px;
+    font-family: 'Vila Morena';
     margin:0;
+    font-weight: 100;
 }
 
 body {
-    font-family: 'Vila Morena';
     color:#474350;
     background-color: #F8FFF4;
 }
 
 #title1 {
-    margin-top: 400px;
     position: relative;
     font-size: 30px;
+    width: fit-content;
     font-family: 'Nollasans';
 }
 
-#title1 p {
+body p {
     margin-left: 100px;
     width:fit-content;
     padding: 10px;
     background-color: #dccac7;
     border-radius: 30px;
+    font-size: 30px;
+    font-family: 'Nollasans';
 }
 
-#title1 #def {
+#def {
     margin-left: 45px;
     margin-right: 45px;
     text-indent: 100px;
+    font-size: 30px;
+    font-family: 'Nollasans';
+}
+
+#curaj {
+    font-size: 30px;
+    color:#474350;
+    font-family: 'Nollasans';
+    margin-left: 145px;
+    margin-right: 45px;
 }
